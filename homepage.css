@@ -1,0 +1,162 @@
+.navbar{
+    display: flex;
+    padding: 15px 15px;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#079B41;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.navbar__logo ,.navbar__icons >a{
+    margin: 0 10px;
+    text-decoration: none;
+
+}
+.navbar__logo >img{
+    height: 65px;
+}
+.navbar__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+.navbar__icons{
+    display: flex;
+    margin: 0 50px;
+    width: 400px;
+    align-items: center;
+    padding: 0 30px;
+    
+}
+.navbar__icons >a{
+    margin: 0 20px;
+    font-size: 20px;
+    color: white;
+}
+.navbar__buttons{
+    display: flex;
+   margin-left: 50px;
+}
+.navbar__button1{
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 15px 25px;
+    background-color: #ffb845;
+   border-radius: 25px;
+   color: white;
+}
+.navbar__button2{
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 15px 25px;
+    border: 2px solid #0bb85066;
+    border-radius: 25px;
+    color: white;
+}
+body{
+    margin: 0;
+}
+.container{
+    height: 800px;
+    background: linear-gradient(to top, white 45%,#079B41 20% );
+   display: flex; 
+    align-items: center; 
+}
+.container__text{
+    
+    font-family: 'Roboto', sans-serif;
+    margin-left: 80px;
+}
+.container__text >h1{
+    font-size: 65px;
+    margin: 0;
+    color: white;
+}
+.container__text>p{
+    font-size: 25px;
+    color: white;
+}
+.container__phone{
+    margin: 0px;
+    width: 350px;
+    height: 600px;
+}
+.container__watch{
+    height: 500px;
+    margin-top: 50px;
+    margin-left: -50px;
+}
+.container__icons{
+    display: flex;
+}
+.berry{
+    margin-top: -100px;
+    margin-left: -50px;
+    width: 60px;
+}
+.apple{
+    color:#46618A;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+.android{
+    color:#46618A;
+    display: flex;
+    align-items: center;
+}
+.stars{
+    display: flex;
+    margin-left: -50px;
+}
+.container__rating{
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+.womenhealth{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.companies > img{
+height: 50px;
+margin: 8px;
+}
+.companies{
+    padding: 80px 0;
+    margin: auto;
+    width: 99%;
+}
+.succeed >h1{
+    color: #268FD0;
+    text-align: center;
+    font-size: 55px;
+    font-family: 'Roboto', sans-serif;
+}
+.succeed{
+    /* background-color: #F8F4F1; */
+    font-family: 'Roboto', sans-serif;
+    padding-top: 30px;
+    background: #fff url(https://s3.amazonaws.com/img.mynetdiary.com/images/pattern-grunge-400x400.jpg) 0 0 repeat;;
+}
+.succeed__content>h1{
+    color:  #268FD0;
+}
+.succeed__content >h2{
+    color:#46618A ;
+    line-height: 1.5;
+}
+.succeed__content{
+    text-align: center;
+    width: 600px;
+    margin: 20px;
+}
+.succeed__contents{
+    align-items: center;
+justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
