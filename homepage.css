@@ -48,6 +48,10 @@
     background-color: #ffb845;
    border-radius: 25px;
    color: white;
+   text-decoration: none;
+}
+.navbar__button1:hover,.navbar__button2:hover{
+    text-decoration: none;
 }
 .navbar__button2{
     text-decoration: none;

@@ -49,18 +49,23 @@ body{
     align-items: center;
     justify-content: space-between;
 }
-.nav__bar__bottom li{
+.nav__bar__bottom a{
     font-size: 13px;
     color:rgb(255,255,247);
     font-family: 'Roboto', sans-serif;
     list-style: none;
     font-weight: bold;
     letter-spacing: 1.2px;
+    text-decoration: none;
 }
-.nav__bar__bottom li:hover{
+.nav__bar__bottom a:hover{
     transform: scale(1.05);
     color: #FFFFFFFF;
     box-shadow: 1px 1px 1px rgb(128, 128, 128);
+    outline: hidden;
+}
+.nav__bar__bottom a:focus{
+    border-bottom: hidden;
 }
 .settings__middle{
     /* border: 1px solid black; */

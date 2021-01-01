@@ -15,6 +15,50 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Rubik:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <title>Document</title>
+    <style>
+        .dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropbtn{
+    color: #FFFFFF;
+    padding: 25px;
+    font-size: 20px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #FFFFFF;
+  min-width: 300px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  font-size: 18px;
+  color: rgb(91,115,151);
+  border-radius: 3px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 10px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color:rgb(255,142,62); color: #FFFFFF; border-radius: 2px;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {
+    text-decoration: none;
+    color: rgb(255,172,69);
+    font-weight: 500;
+    background-color:rgb(255,255,255);
+    width: 120px;
+    height: 15px;
+    border-radius: 3px;
+    }
+    </style>
 </head>
 <body>
     <div class="head">
@@ -22,14 +66,60 @@
             <a href="/" class="navbar__logo"><img src="https://s3.amazonaws.com/img.mynetdiary.com/images/logo-dark.svg"/></a>
             <div class="navbar__content">
                 <div class="navbar__icons">
-                    <a href="">Features</a>
-                    <a href="">Diets</a>
-                    <a href="">Library</a>
-                    <a href="">Food</a>
-                    <a href="">Business</a>
+                    <div class="dropdown">
+                        <a class="dropbtn" href="">Features</a>
+
+                        <div class="dropdown-content">
+                            <a href="#">Iphone & Ipad</a>
+                            <a href="#">Android App</a>
+                            <a href="#">MyNetDiary vs MyFitnessPal</a>
+                        </div>
+                    </div>
+
+                    <div class="dropdown">
+                        <a class="dropbtn" href="">Diets</a>
+                        <div class="dropdown-content">
+                            <a href="#">Calorie Counting</a>
+                            <a href="#">Low-Carb</a>
+                            <a href="#">Keto</a>
+                            <a href="#">High Protien</a>
+                            <a href="#">Low Fat</a>
+                            <a href="#">Mediterranian</a>
+                            <a href="#">Vegetarian</a>
+                            <a href="#">Vegan</a>
+                        </div>
+                    </div>
+                    
+                    <div class="dropdown">
+                        <a class="dropbtn" href="">Library</a>
+                        <div class="dropdown-content">
+                            <a href="#">WeightLoss Blog</a>
+                            <a href="#">Diet Library</a>
+                            <a href="#">Dietician Team</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <a class="dropbtn" href="">Food</a>
+                        <div class="dropdown-content">
+                            <a href="#">Food Saarch</a>
+                            <a href="#">Food Vendors</a>
+                            <a href="#">Food Catalog</a>
+                            <a href="#">DataBase Licensing & API </a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <a class="dropbtn" href="">Buinissses</a>
+                        <div class="dropdown-content">
+                            <a href="#">Find HealthCare Professional</a>
+                            <a href="#">For HealthCare Professionals</a>
+                            <a href="#">For Trainers & Club</a>
+                            <a href="#">For DataBase Licensing </a>
+                        </div>
+                    </div>
+                    
                 </div>
                 <div class="navbar__buttons">
-                    <a href="\magnesium\signup.html"class="navbar__button1">SIGN UP</a>
+                    <a href="/signup.html"class="navbar__button1">SIGN UP</a>
                     <a class="navbar__button2">SIGN IN</a>
                 </div>
             </div>
