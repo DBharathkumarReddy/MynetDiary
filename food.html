@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="food.css">
+    <title>Document</title>
+</head>
+
+<body>
+   <div class="main">
+        <div class="top">
+            <i class="fa fa-search" style="font-size:24px;color:grey;margin:30px 10px 10px 20px ;"></i>
+            <i class="fa fa-star-o" style="font-size:24px;color:grey;margin:30px 10px 10px 20px;"></i>
+            <img  class="img" src="https://s3.amazonaws.com/img.mynetdiary.com/premiumrecipe/ic_premium_recipes.png" height="24px" width="24px" />
+            
+            <p class="cmd">Consumed Food:</p>
+            <p class="cl">Calories count</p>
+            <p class="ft">Fats</p>
+            <p class="ptn">Protien</p>
+            <p class="fdg">Fd Grade</p>
+            <p class="cbs">Carbs</p>
+        </div>
+        <div class="brkfst">
+            <p class="p1">BREAKFAST</p><br/>
+            <select class="brk" id= "brk">
+                <option class="op"id="op1"></option>
+                <option class="op" id="op2"></option>
+                <option class="op"id="op3"></option>
+                <option class="op" id="op4"></option>
+
+            </select>
+            <button id="btn1">ADD</button>
+            <div class="inr" id="inr">
+
+            </div>
+        </div>
+
+        <div class="top">
+            <p class="cmd1">Consumed Food:</p>
+            <p class="cl">Calories count</p>
+            <p class="ft">Fats</p>
+            <p class="ptn">Protien</p>
+            <p class="fdg">Fd Grade</p>
+            <p class="cbs">Carbs</p>
+        </div>
+        <div class="brkfst">
+            <p class="p1">LUNCH</p>
+            <select class="brk1" id= "lnc">
+                <option  class="op" id="op5"></option>
+                <option  class="op" id="op6"></option>
+                <option  class="op" id="op7"></option>
+                <option  class="op" id="op8"></option>
+
+            </select>
+            <button id="btn2">ADD</button>
+            <div class="inr" id="inr1">
+
+            </div>
+        </div>
+        <div class="top">
+            <p class="cmd1">Consumed Food:</p>
+            <p class="cl">Calories count</p>
+            <p class="ft">Fats</p>
+            <p class="ptn">Protien</p>
+            <p class="fdg">Fd Grade</p>
+            <p class="cbs">Carbs</p>
+        </div>
+
+
+        <div class="brkfst">
+            <p class="p1">DINNER</p>
+            <select class="brk1" id= "dnr">
+                <option class="op" id="op9"></option>
+                <option class="op" id="op10"></option>
+                <option class="op" id="op11"></option>
+                <option class="op" id="op12"></option>
+
+            </select>
+            <button id="btn3">ADD</button>
+            <div class="inr" id="inr2">
+
+            </div>
+        </div>
+        <div class="top">
+            <p class="cmd1">Consumed Food:</p>
+            <p class="cl">Calories count</p>
+            <p class="ft">Fats</p>
+            <p class="ptn">Protien</p>
+            <p class="fdg">Fd Grade</p>
+            <p class="cbs">Carbs</p>
+        </div>
+        <div class="brkfst">
+            <p class="p1">SNACKS</p>
+            <select class="brk1" id= "snc">
+                <option class="op" id="op13"></option>
+                <option  class="op" id="op14"></option>
+                <option class="op" id="op15"></option>
+                <option  class="op" id="op16"></option>
+
+            </select>
+            <button id="btn4">ADD</button>
+            <div class="inr" id="inr3">
+
+            </div>
+        </div>
+        <div class="graph" >
+            <button id= "grf">SHOW GRAPH</button>
+            <div id="chartContainer" style="height: 300px; width: 40%;"></div>
+            <button id="total"> TOTAL</button>
+            <div class="brkfst1" id="brkfst1">
+                <p>DAY LOG</p>
+            </div>
+        </div>
+   </div>
+
+    <script src="food.js">
+    </script>
+</body>
+</html>
