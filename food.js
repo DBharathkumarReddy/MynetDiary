@@ -1289,6 +1289,10 @@ function total(){
         }
 
     }
+    localStorage.setItem("cal",cal)
+    localStorage.setItem("ptn",ptn)
+    localStorage.setItem("fats",fats)
+    localStorage.setItem("crb",crb)
     console.log(cal)
     console.log(ptn)
     console.log(fats)
@@ -1307,10 +1311,10 @@ data: [
     // Change type to "doughnut", "line", "splineArea", etc.
     type: "splineArea",
     dataPoints: [
-        { label: "calories",  y:49   },
-        { label: "protien", y: 201  },
-        { label: "fats", y: 25  },
-        { label: "carbs",  y: 40 },
+        { label: "calories",  y:Number(localStorage.getItem("cal"))   },
+        { label: "protien", y: Number(localStorage.getItem("ptn"))  },
+        { label: "fats", y: Number(localStorage.getItem("fats"))  },
+        { label: "carbs",  y: Number(localStorage.getItem("crb")) },
         
     ]
 }

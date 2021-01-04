@@ -78,6 +78,13 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    outline: none;
+}
+.button button:focus{
+    outline: none;
+}
+.button button:hover{
+    outline: none;
 }
 #myemail{
     height: 50px;
@@ -120,7 +127,7 @@ body{
     background-color: #1948a7;
 }
 .google:hover {
-    background-color: #1059ce;
+    background-color: #4285F4 ;
 }
 .apple:hover {
     background-color: rgb(36, 34, 34);
@@ -129,12 +136,18 @@ body{
 .google{
     display: flex;
     height: 50px;
-    background-color: #4285F4;
+    background-color: #1059ce;
     color: white;
     align-items: center;
     justify-content: space-between;
-    padding-right:  10px;
+    padding-right:  30px;
     border-radius: 5px;
+}
+.google img{
+    padding-left: 15px;
+}
+.facebook img{
+    padding-top: 0px;
 }
 .apple{
     display: flex;
@@ -145,6 +158,7 @@ body{
     justify-content: space-between;
     padding: 0 15px;
     border-radius: 5px;
+    padding-right: 40px;
 }
 .inputsection__right{
     width: 250px;
