@@ -62,9 +62,11 @@
     width:80%;
     height:1000px;
     background-color: white;
-    box-shadow: 2px 2px 2px #2e2e2d70  ,-2px -2px 22px #2e2e2d70 ;
-   
+    box-shadow: 2px 2px 2px #2e2e2d70  ,-2px -2px 2px #2e2e2d70 ;
+    font-family: 'Roboto', sans-serif;
     margin:100px auto;
+    font-size: 14px;
+    font-weight: bold;
 }
 .top{
     width:100%;
