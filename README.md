@@ -1,4 +1,4 @@
-# Cloning of  MyNetDiary
+# Clone ofMyNetDiary
  MyNetDiary is a web application that allows you to track what you eat and how much you exercise
  
  ## Technologies Used:
