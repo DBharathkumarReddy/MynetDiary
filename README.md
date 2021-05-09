@@ -1,6 +1,6 @@
 # Clone ofMyNetDiary
  - MyNetDiary is a web application that allows you to track what you eat and how much you exercise
- - Check the Demo here #### https://dbharathkumarreddy.github.io/magnesium/
+ - Check the Demo here https://dbharathkumarreddy.github.io/magnesium/
  ## Technologies Used:
  
 - **HTML**
