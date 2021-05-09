@@ -66,6 +66,7 @@ body{
 .dropdown {
     position: relative;
     display: inline-block;
+    color:black
   }
   .dropbtn{
       color: #FFFFFF;
