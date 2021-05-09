@@ -20,4 +20,7 @@
 - The complete data of user like calorie budget and statistics
 <img width="669" alt ="loginpage" src = "https://github.com/DBharathkumarReddy/magnesium/blob/main/Screenshot%20(551).png?raw=true"/>
 
-###Contributors:
+### Contributors:
+    - D Bharath Reddy
+    - Sohail Shaik
+    - AbhinavSinghRaj
