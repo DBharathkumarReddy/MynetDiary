@@ -10,14 +10,14 @@
 
 
 ### Home Page:
-- The overview of MynetDiary and different features
-- The articles of different users of it
+- The overview of MynetDiary and different diet plans
+- we can find details of different foods,training clubs and professionals
 <img width="669" alt="homepage" src = "https://github.com/DBharathkumarReddy/magnesium/blob/main/Screenshot%20(550).png?raw=true"/>
 
 
 
 ### Dashboard Page:
-- The complete data of user like calorie budget and statistics
+- The complete data of user such as calorie budget and statistics
 <img width="669" alt ="loginpage" src = "https://github.com/DBharathkumarReddy/magnesium/blob/main/Screenshot%20(551).png?raw=true"/>
 
 ### Contributors:
